@@ -1,0 +1,27 @@
+aid: trymnemo-com
+name: Mnemo Protocol
+description: 'Mnemo Protocol is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/trymnemo-com/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-12'
+modified: '2026-11-12'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://www.trymnemo.com/
+- type: Documentation
+  url: https://www.trymnemo.com/agent-protocol.md
+x-submission-notes: Embedding-vector provenance/verification API, x402 payments; OpenAPI 3.1 at /openapi.json
+x-submission-probe: root 200, invented 404, openapi.json 200 (87KB json), agent-protocol.md 200; healthy
